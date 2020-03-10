@@ -1,0 +1,225 @@
+@media (min-width: 320px) and (max-width: 1279px) {
+
+/*                             Start Of Header                                     */
+
+    header .contacts {
+        display: none;
+    }
+    nav {
+        text-align: center;
+    }
+    nav h2 {
+        padding-top: 12px;
+        line-height: 1.5;
+    }
+    nav h5 {
+        padding-left: 0;
+    }
+    nav ul {
+        display: none;
+    }
+
+/*                            Start Of Section1                                    */
+
+    .sec1 {
+        height: 520px;
+    }
+    .sec1 .content {
+        margin-top: 20px;
+    }
+    .sec1 img {
+        margin-top: 40px;
+    }
+/*                            Start Of Section2                                    */
+
+    .sec2 {
+        height: 840px;
+    }
+    .sec2 .advantage {
+        width: 40%;
+        height: 300px;
+        margin: 40px 44px 0;
+    }
+
+/*                               End Of Section2                                    */
+/*                              Start Of Section3                                   */
+
+    .sec3 {
+        height: 1560px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec3 .services {
+        width: 50%;
+        height: 450px;
+        float: none;
+        margin: 25px auto 0;
+        text-align: center;
+    }
+
+/*                               End Of Section3                                     */
+/*                              Start Of Section4                                    */
+
+    .pictures img {
+        margin: 5px 4px;
+    }
+
+/*                               End Of Section4                                     */
+/*                              Start Of Section5                                    */
+
+    .sec5 {
+        height: 720px;
+    }
+    .sec5 .reviews {
+        height: 450px;
+        margin: 62px 10px 0;
+    }
+    .sec5 p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+/*                               End Of Section5                                      */
+/*                              Start of Section6                                     */
+
+    .sec6 .lefts {
+        width: 45%;
+    }
+    .lefts h1 {
+        font-size: 25px;
+        line-height: 1.8;
+    }
+    .lefts h2 {
+        font-size: 20px;
+    }
+
+/*                                     End Of Section6                                              */
+/*                                    Start Of Section7                                             */
+
+    .sec7 {
+        height: 800px;
+    }
+    .sec7 .info {
+        width: 35%;
+        height: 360px;
+        margin: 0 66px 0;
+    }
+    .info span {
+        width: 20%;
+        font-size: 13px;
+    }
+
+/*                                     End Of Section7                                              */
+}
+@media screen (min-width: 1280px) and (max-width: 1340px) {
+
+/*                             Start Of Header                                     */
+
+    header .contacts {
+        display: none;
+    }
+    nav {
+        text-align: center;
+    }
+    nav h2 {
+        padding-top: 12px;
+        line-height: 1.5;
+    }
+    nav h5 {
+        padding-left: 0;
+    }
+    nav ul {
+        display: none;
+    }
+
+/*                            Start Of Section1                                    */
+
+    .sec1 {
+        height: 520px;
+    }
+    .sec1 .content {
+        margin-top: 20px;
+    }
+    .sec1 img {
+        margin-top: 40px;
+    }
+/*                            Start Of Section2                                    */
+
+    .sec2 {
+        height: 840px;
+    }
+    .sec2 .advantage {
+        width: 40%;
+        height: 300px;
+        margin: 40px 44px 0;
+    }
+
+/*                               End Of Section2                                    */
+/*                              Start Of Section3                                   */
+
+    .sec3 {
+        height: 650px;
+    }
+    .sec3 .services {
+        width: 30%;
+        height: 510px;
+        float: left;
+        margin: 25px 18px 0;
+        text-align: center;
+    }
+
+/*                               End Of Section3                                     */
+/*                              Start Of Section4                                    */
+
+    .pictures img {
+        margin: 5px 4px;
+    }
+
+/*                               End Of Section4                                     */
+/*                              Start Of Section5                                    */
+
+    .sec5 {
+        height: 720px;
+    }
+    .sec5 .reviews {
+        height: 450px;
+        margin: 62px 10px 0;
+    }
+    .sec5 p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+/*                               End Of Section5                                      */
+/*                              Start of Section6                                     */
+
+    .sec6 .lefts {
+        width: 45%;
+    }
+    .lefts h1 {
+        font-size: 25px;
+        line-height: 1.8;
+    }
+    .lefts h2 {
+        font-size: 20px;
+    }
+
+/*                                     End Of Section6                                              */
+/*                                    Start Of Section7                                             */
+
+    .sec7 {
+        height: 800px;
+    }
+    .sec7 .info {
+        width: 35%;
+        height: 360px;
+        margin: 0 66px 0;
+    }
+    .info span {
+        width: 20%;
+        font-size: 13px;
+    }
+
+/*                                     End Of Section7                                              */
+}

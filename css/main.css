@@ -1,0 +1,510 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    padding: auto;
+}
+.container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+/*                              Start Of Header                                          */
+
+header .contacts {
+    width: 100%;
+    height: 40px;
+    background-color: #fecb10;
+}
+.contacts .left {
+    width: 75%;
+    float: left;
+}
+.left ul {
+    list-style-type: none;
+}
+.left li {
+    width: 28%;
+    float: left;
+}
+.left .icone1 {
+    float: left;
+    font-size: 25px;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+.left p {
+    padding-top: 10px;
+}
+.contacts .right {
+    width: 25%;
+    float: right;
+}
+.right a {color: #000000;}
+.right .icone2 {
+    font-size: 25px;
+    float: right;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+header nav {
+    width: 100%;
+    height: 80px;
+    background-color: #222534;
+}
+nav h2 {
+    color: #fecb10;
+    font-style: italic;
+    padding: 18px 35px 0px;
+}
+nav h5 {
+    color: #7f828a;
+    font-size: 14px;
+    padding-left: 35px;
+}
+nav ul {
+    list-style-type: none;
+    float: right;
+    margin-top: -30px;
+}
+nav li {
+    margin-left: 30px;
+    float: right;
+}
+nav a {
+    text-decoration: none;
+    color: #d9dadf;
+}
+header .slider {
+    width: 100%;
+    height: 620px;
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),url(../img/Gorgeous-Construction-Wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 60px;
+    text-align: center;
+}
+.slider h3 {
+    color: #fdfefc;
+    font-size: 30px;
+    line-height: 3.5;
+}
+.slider h2 {
+    color: #fdfefc;
+    font-size: 50px;
+    line-height: 0.5;
+}
+.slider h1 {
+    color: #fecb10;
+    font-size: 52px;
+    line-height: 1.4;
+    margin: 0;
+}
+.slider p {
+    color: #fdfefc;
+    line-height: 1.5;
+    padding-top: 15px;
+}
+.slider button {
+    color: #f1fef9;
+    background-color: #fecb10;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    margin: 50px 40px 0;
+    cursor: pointer;
+}
+.slider button:focus {outline: none;}
+/*                               End Of Header                                            */
+/*                             Start Of Section1                                          */
+
+.sec1 {
+    width: 100%;
+    height: 450px;
+    text-align: center;
+}
+.sec1 h1 {
+    font-size: 40px;
+    color: #fecb10;
+    line-height: 1.5;
+    margin: 0;
+    padding-top: 15px;
+}
+.sec1 h2 {
+    font-size: 30px;
+}
+.sec1 .content {
+    width: 55%;
+    height: 300px;
+    float: left;
+    margin-top: 40px;
+    text-align: left;
+}
+.content p {
+    line-height: 1.4;
+    padding-top: 30px;
+}
+.content button {
+    margin-top: 25px;
+    background-color: #fecb10;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+.content .button:focus {outline: none;}
+.sec1 img {
+    width: 45%;
+    height: 320px;
+    float: right;
+    margin-top: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0, 1);
+}
+/*                              End Of Section1                                           */
+/*                             Start of Section2                                          */
+
+.sec2 {
+    width: 100%;
+    height: 560px;
+    background-color: #f2f7fb;
+    text-align: center;
+    padding-top: 15px;
+}
+.sec2 h1 {
+    margin: 0;
+    line-height: 3;
+}
+.sec2 .advantage {
+    width: 25%;
+    height: 390px;
+    float: left;
+    margin-top: 40px;
+}
+.advantage .icone3 {
+    border: 20px solid #fecb10;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    font-size: 60px;
+    line-height: 2.5;
+}
+.advantage h4 {
+    line-height: 2.6;
+}
+/*                              End Of Section2                                            */
+/*                             Start Of Section3                                           */
+
+.sec3 {
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    padding-top: 40px;
+}
+.sec3 h1 {
+    margin: 0;
+}
+.sec3 .services {
+    width: 30%;
+    height: 475px;
+    float: left;
+    text-align: left;
+    margin: 40px 19px 0;
+}
+.services img {
+    width: 100%;
+    height: 48%;
+    line-height: 2.5;
+    box-shadow: 3px 3px 10px;
+}
+.services h3 {
+    line-height: 3;
+    font-size: 20px;
+}
+.services p {
+    line-height: 1.5;
+}
+.services button {
+    margin-top: 25px;
+    background-color: #fecb10;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+/*                              End Of Section3                                            */
+/*                             Start of Section4                                           */
+
+.sec4 {
+    width: 100%;
+    height: 720px;
+    background-image: url(../img/yellow-orange-paint-texture-768x529.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+.sec4 h1 {
+    margin: 0;
+    line-height: 2.5;
+}
+.sec4 p {
+    line-height: 1.5;
+}
+.sec4 ul {
+    list-style-type: none; 
+    margin-top: 50px;
+}
+.sec4 li {
+    display: inline;
+    margin-right: 20px;
+}
+.sec4 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.sec4 a:hover {
+    background-color: #000000;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+.sec4 .pictures {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px
+}
+.pictures img {
+    float: left;
+    margin: 5px 5px;
+    box-shadow: 3px 3px 10px rgba(0,0,0, .6);
+}
+/*                              End Of Section4                                             */
+/*                             Start Of Section5                                            */
+
+.sec5 {
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    padding-top: 25px;
+}
+.sec5 h1 {
+    margin: 0;
+    line-height: 2.5;
+}
+.sec5 p {
+    line-height: 1.5;
+}
+.sec5 .reviews {
+    width: 28%;
+    height: 400px;
+    float: left;
+    position: relative;
+    margin: 80px 20px 0;
+}
+.reviews .costumers {
+    width: 100%;
+    height: 60%;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+    padding: 25px 35px;
+    text-align: left;
+    box-shadow: 3px 3px 10px;
+}
+.reviews .icone4 {
+    font-size: 55px;
+    color: #e5e5e5;
+    position: absolute;
+    margin: -22px 30px;
+}
+.reviews img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 40px;
+}
+.reviews h4 {line-height: 2;}
+.sec5 .review {
+    width: 30%;
+    height: 500px;
+    float: left;
+    position: relative;
+    margin: 50px 40px 0;
+}
+.review .costumer {
+    width: 100%;
+    height: 60%;
+    background-color: #fecb10;
+    border-radius: 15px;
+    padding: 25px 35px;
+    text-align: left;
+    box-shadow: 2px 2px 8px;
+}
+.review .icone4 {
+    font-size: 55px;
+    color: #fecb10;
+    position: absolute;
+    margin: -22px 30px;
+}
+.review img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 40px;
+}
+.review h4 {line-height: 2;}
+.sec5 .question {
+    width: 100%;
+    height: 400px;
+    background-color: #fecb10;
+}
+/*                              End Of Section5                                              */
+/*                             Start Of Section6                                             */
+
+.sec6 {
+    width: 100%;
+    height: 150px;
+    background-color: #fecb10;
+    position: relative;
+}
+.sec6 .lefts {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 40px;
+}
+.lefts h1 {
+    margin: 0;
+}
+.lefts h2 {
+    margin-left: 50px;
+}
+.sec6 .rights {
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding-top: 24px;
+}
+.rights input[type=text] {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 8px 12px 0 0;
+    border: none;
+}
+.rights input[type=email] {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+.rights button {
+    width: 21%;
+    color: #FFFFFF;
+    background-color: #272a31;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+/*                               End Of Section6                                             */
+/*                              Start Of Section7                                            */
+
+.sec7 {
+    width: 100%;
+    height: 450px;
+    background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),url(../img/archiving_construction_projects.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 60px;
+}
+.sec7 .info {
+    width: 24%;
+    height: 385px;
+    float: left;
+    padding-left: 10px;
+    margin-right: 11px;
+}
+.info h3 {
+    color: #FFFFFF;
+    line-height: 4;
+    letter-spacing: 3px;
+}
+.info h2 {
+    color: #fecb10;
+}
+.info h5 {
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+.info p {
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.info .icone5 {
+    float: left;
+    margin-right: 10px;
+    background-color: #fecb10;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 6px 10px;
+    border: none;
+    margin-top: 35px;
+}
+.info a {
+    text-decoration: none;
+}
+.info .icone6 {
+    float: left;
+    font-size: 15px;
+    margin: 0 18px -8px 0;
+    color: #FFFFFF;
+}
+.info span {
+/*    width: 20%;*/
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    padding: 5px 7px;
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 14px 5px 0 0;
+    font-size: 12px;
+}
+.info .p1 {
+    width: 75%;
+    float: right;
+    margin-top: 10px
+}
+.info .icone7 {
+    float: left;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 15px 20px 0 0;
+}
+.info .p2 {
+    margin-left: 35px;
+}
+/*                              End Of Section6                                              */
+/*                              Start Of Footer                                              */
+
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: #1a1c28;
+    text-align: center;
+    padding-top: 28px;
+}
+footer p {
+    color: #FFFFFF;
+}
+footer strong {
+    color: #fecb10;
+}
